@@ -1,0 +1,60 @@
+html,body{height: 100%;font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 300;
+color: #545454;background-color: #7c26c9;}
+  
+.header {background: #fff;}
+.logo {
+  float: left;
+  padding:15px;
+}
+
+.head {
+  width: 100%;
+}
+nav.nav {
+  float: right;
+}
+nav.nav > ul {margin:0px; padding:0px}
+nav.nav > ul > li{display: inline-block; padding:15px 30px;}
+.setter {
+  padding: 8px 11px;
+  background: #ddd;
+  position: relative;
+  margin-bottom: 14px;
+}
+.dkds {
+  padding: 12px 20px;
+  display: block;
+  background: #ddd;
+  margin-bottom: 4px;
+  position: relative;
+}
+span.workkx {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 39px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+ul.itemlist label {
+  cursor: pointer;
+}
+.pannerlbox h1 {
+  font-size: 20px;
+}
+ul.itemlist li {
+  display: block;
+}
+ul.itemlist input {
+  margin-right: 10px;
+}
+.whiteshater {
+  margin: 60px 0px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  padding:20px;
+}

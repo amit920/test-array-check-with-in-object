@@ -1,0 +1,491 @@
+html,body{height: 100%;font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 300;
+color: #545454;}
+  
+
+.bgAll{background-color: #fff;  height: 100vh; position: relative;}
+.loginara {
+  max-width: 500px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  width: calc(100% - 15px);
+}
+
+.innergridHeader{padding:10px 30px; background-color:#ff4b36;border-radius: 6px 6px 0px 0px;}
+.innergridHeader h3{color: #fff;font-weight: 900; text-transform: uppercase;padding:0px;margin:0px;}
+.innergridHeader p{color: #fff;padding:0px;margin:0px}
+
+.loginbody {
+  padding: 20px 30px;
+}
+.formGrid {
+  margin-bottom: 15px;
+}
+.formGrid input{height: 45px;}
+.buttonsubmit button {
+  border: none;
+  padding: 16px 0px;
+  color: #fff;
+  background-color: #ff4b36;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.loginbottom {
+  margin: 30px 0px 0px 0px;
+  border-top: 1px solid#ddd;
+  padding: 20px 30px 20px 30px;
+}
+.registerbtn a {
+  display: block;
+  color: #fff;
+  background: #4c4c4c;
+  text-align: center;
+  padding: 16px 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.upperAra {background: #fff;border-bottom: 1px solid#ddd; position:relative;}
+.logo {width: 60px; margin: 10px auto 10px auto;}
+.logo img{width: 100%;}
+.listcheck {position: absolute;top: 0px;right: 12px;}
+.listcheck > ul{margin:0px; padding: 0px;}
+.listcheck > ul > li{display: inline-block;}
+.listcheck > ul > li > a {display: block;padding: 8px 10px;font-size: 20px;color: #545454; cursor: pointer;}
+
+.hambruger {position: absolute;top: 16px;left: 12px;width: 25px; cursor: pointer;}
+.topSlice{display: block; background:#545454; width: 100%; height: 2px;}
+.midSlice {display: block;background: #545454;width: 100%;height: 2px;margin: 5px 0px;}
+.bottomSlice{display: block; background:#545454; width: 100%; height: 2px;}
+.figure img {
+  width: 100%;
+}
+.figure {position:relative; width: 100%;}
+.pannel {
+  padding: 40px 0px;
+}
+.pannelgrid {
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  position: relative;
+    overflow: hidden;
+}
+
+.bgcolor{background:#f7fdfd}
+.contentarea {
+  padding: 35px 15px 4px;
+  bottom: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(to bottom, #33ccff00 0%, #000000 100%);
+}
+.half {
+  float: left;
+  width: 50%;
+}
+
+.sedomess {
+  transition: 0.3s;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-59%, -40px);
+  background: #292929;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  opacity: 0px;
+  visibility: hidden;
+}
+.sedomess.disp {
+  visibility: visible;
+  opacity: 1;
+  top: 60px;
+}
+.sedomess p{margin:0px; padding:12px 0px}
+.namearea {
+color: #fff;
+}
+.half p {
+  color: #fff;
+  line-height: 7px;
+  font-size: 14px;
+}
+.registerbutton {
+  margin-top: 20px;
+}
+.registerbutton a{border:1px solid#ff5758}
+.registerbutton a {
+  border: 1px solid#ff5758;
+  display: block;
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ff5758;
+}
+.requesyara {
+  background: #ff5758;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.viewDetails{ border: none;
+  color: #ffc1c1;
+  padding: 8px 0px;
+  cursor: pointer;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  width: 33.333%;
+  background: #ec4142;
+  float:left;}
+.viewDetails i{display: block; margin-bottom: 5px; font-size: 18px; color: #fff;}
+.requesyara button i{display: block; margin-bottom: 5px; font-size: 18px; color: #fff;}
+.requesyara button {
+  border: none;
+  color: #ffc1c1;
+  padding: 8px 0px;
+  cursor: pointer;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  width: 33.333%;
+  background: #ec4142;
+  float:left;
+}
+.leftphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  overflow: hidden;
+  float: left;
+}
+.rightContent {
+  margin-left: 77px;
+}
+.navmain {
+  position: fixed;
+  left: -350px;
+  bottom: 0px;
+  top: 0px;
+  z-index: 100000;
+  width: 310px;
+  background: #fff;
+  transition: 0.3s;
+}
+.namearea h3 {
+  font-size: 20px;
+}
+.namearea p {
+  font-size: 14px;
+}
+.mainproarea {
+  padding: 15px 12px;
+  background: #f0f0f0;
+}
+.navmain.grid {
+left: 0px;
+}
+.mainproarea a{text-decoration: none;}
+.rightContent h3 {
+font-size: 22px;
+margin: 6px 0px 0px;
+color: #545454;
+}
+.rightContent p{color: #545454; margin:0px}
+.leftphoto img {
+  object-fit: cover;
+  width: 100%;
+}
+.gourl {margin:0; padding: 0px;}
+.gourl > li{display: block}
+.gourl > li > a{display:block; padding: 12px 12px; color: #545454;}
+.shade {
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+background: rgba(0,0,0,0.7);
+z-index: 1;
+cursor: pointer;
+transform: .3s;
+opacity: 0;
+visibility: hidden;
+}
+.shade.show{opacity: 1; visibility: visible;}
+
+.imagesArea {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 160px;
+}
+
+.imagesArea img{width: 100%;}
+.profileHead {padding: 10px 12px;background: #ff5758;}
+.addphoto input{display: none;}
+
+.addphoto label {
+  display: block;
+  width: 180px;
+  margin: -29px auto 19px auto;
+  background: #fff;
+  text-align: center;
+  padding: 13px 0px;
+  border-radius: 50px;
+  position: relative;
+  color: #6f6e6e;
+  font-weight: 600;
+}
+.gridspace {
+  padding: 0px 15px;
+}
+.pannelgrid.padding{
+  padding: 14px 13px 8px;margin-top: 10px;
+  box-shadow: 0px 3px 0px rgb(197 193 193 / 50%);
+  border-radius: 3px;
+  border: 1px solid#ddd;}
+
+.pannelgrid h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* .gridspace.nopadder{padding:0px 0px;} */
+.editoicon {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  color: #ff5758;
+}
+.textviewsleft  {
+  width: 40%;
+  float: left;
+}
+.textviewleft{float: left; width: 60%;}
+.pannelhard {
+  font-size: 14px;
+}
+.buttonara {
+  padding: 0px 0px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.buttonara button {
+  display: block; color: #fff; background-color: #ff4b36;padding: 15px 0px; width: 100%; border:none;
+  border-radius: 0px;
+}
+.fullwidthArea {
+  padding-bottom: 70px;
+}
+.photoicon {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  z-index: 1;
+  background: rgba(0,0,0,0.4);
+  width: 40px;
+  height: 40px;
+  border-radius: 60px;
+}
+.photoarea i {
+  color: #fff;
+}
+.photoarea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.photoarea span {
+    position: absolute;
+    top: -3px;
+    right: -9px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff5758;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 10px;
+}
+.listpd {
+  margin: 0px 0px 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  background: #eaeaea;
+  display: block;
+  padding: 16px 15px;
+}
+.listpd > ul{margin:0px; padding: 0px;}
+.listpd > ul > li{display: inline-block;width: 80px;
+  height: 80px;margin-right: 10px;}
+  .listpd > ul > li > a {
+    border: 1px solid#fff;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    border-radius: 5px;
+}
+.whitebg {
+  background: #fff;
+  display: block;
+  padding: 20px 15px;
+}
+.formGrid.girdhalf {
+  width: calc(50% - 5px);
+  float: left;
+}
+.formGrid.girdhalf:nth-child(even) {
+  margin-left: 5px;
+}
+.formGrid.girdhalf:nth-child(odd)  {
+  margin-right: 5px;
+}
+
+
+.listpd img {
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.buttonara.fiexed {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.moreoption {
+  margin-top: 20px;
+  border: 1px solid#ff4b36;
+  text-align: center;
+  padding: 16px 0px;
+  border-radius: 5px;
+}
+.onshobox{display: none;}
+.pdImg {
+  height: 260px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.pdImg img {
+  object-fit: cover;
+  width: 100%;
+}
+.addphoto {
+  color: #ff5758;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.addphoto a {
+  text-decoration:none;
+  margin: -22px auto 20px auto;
+  display: block;
+  width: 200px;
+  border-radius: 50px;
+  padding: 17px 0px;
+  background: #fff;
+  color: #ff5758;
+  font-weight: bold;
+  font-size: 16px;
+}
+.userImageProfile img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.userImageProfile {
+  position: relative;
+  background: #d0d0d0;
+  height: 200px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.inputarea input {
+  display: none;
+}
+.inputarea label {
+ display:block;
+  text-align: center;
+  background: #ff5758;
+  padding: 9px 0px;
+  color: #fff;
+}
+.inputarea p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+}
+
+
+
+
